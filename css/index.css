@@ -1,0 +1,1158 @@
+.logo {
+    display: inline-block;
+    margin-left: 55px;
+    font-size: 32px;
+    font-weight: 500;
+   color:black;
+    
+}
+
+
+.logoSelect{
+    color: black;
+
+}
+
+.logo a:hover{
+    color: #054fb9;
+    cursor: pointer;
+    font-weight: 600;
+
+    
+}
+
+a {
+    text-decoration: none;
+    transition: all .5s ease;
+    color: black;
+}
+
+
+.mainNav {
+    display: inline-block;
+    background-color: aqua;
+    margin-right: 55px;
+}
+
+.navbar-nav{
+    margin-right: 0;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.customnavbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.nav-link{
+    padding: 0 !important;
+}
+
+
+
+
+
+ul li{
+    display: inline-block;
+    padding: 0 25px;
+    font-size: 32px;
+   
+}
+
+
+
+.navButton{
+    color:black;
+    cursor: pointer;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+
+#aboutmeButton li{
+    color: #054fb9;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+#myworkButton{
+    color: #054fb9;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+
+.navButton:hover{
+    color: #054fb9;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+ul {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    padding: 32px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100vw;
+
+}
+
+.hero {
+    margin-top: 257px;
+    display: flex;
+}
+
+.topSection{
+    margin-top: 257px;
+
+}
+
+body {
+    font-family: "Montserrat";
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.contact {
+    border-style: solid;
+    padding: 13px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+.mainNav .contact:hover{
+    border-style: solid;
+    padding: 13px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #00022D;
+    transition: all .5s ease;
+    color: white;
+    border-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+.mainNav .contact:active{
+   
+    background-color: black;
+    transition: all .2s ease;
+    padding: 11px 14px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+
+
+
+
+
+
+h1 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 64px;
+    padding: 0;
+    margin: 0px 0px 0px 80px;
+   
+
+
+}
+
+.wrap{
+    color: black;
+}
+
+.tagLine {
+    font-size: 24px;
+    max-width: 50%;
+    margin: 0px 0px 0px 80px;
+    font-weight: 400;
+
+}
+
+.quoteContainer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.quote {
+    font-size: 32px;
+    font-weight: 500;
+    text-align: right;
+    font-style: italic;
+    max-width: 50%;
+    margin: 100px 80px 100px 0px;
+
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 500;
+    margin: 0px 0px 0px 80px;
+}
+
+
+
+
+
+
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: inline-block;
+
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform .8s;
+    border-color: #054fb9;
+    border-width: 2px;
+        background: linear-gradient(
+            -45deg,
+            #ffffff,
+            #ffe4e9,
+            #8eb8ff,
+            #d5f9ff
+        );
+        background-size: 400% 400%;
+        animation: gradient 9s ease infinite;
+        
+    }
+    
+    @keyframes gradient {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+
+
+    .card:active{
+        
+        border-style: solid;
+        border-color: #054fb9;
+        border-width: 2px;
+      
+    }
+    
+
+
+
+
+.footer {
+    color: white;
+    align-items: center;
+    height: 40px;
+    
+
+    bottom: 0;
+    padding: 32px 0px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #363535;
+    width: 100vw;
+    margin-top: 100px;
+
+}
+
+.footerCopy {
+    display: flex;
+    align-items: center;
+    margin: 30px 55px 30px 30px;
+    background-color: #363535;
+
+
+
+}
+
+.copyright {
+    margin: 30px 30px 30px 55px;
+}
+
+.footerCopy li {
+    font-size: 16px;
+
+
+}
+
+.title {
+    font-size: 36px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin: 0px 0px 30px 80px;
+    display: inline-block;
+    text-decoration: underline #054fb9;
+    
+
+
+
+}
+
+br {
+    margin: -10px;
+    padding: -10px;
+}
+
+
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    grid-template-areas: "card1 card2";
+}
+
+#non-profit {
+    grid-area: card1;
+    margin: 30px 25px 30px 80px;
+    border-radius: 4px;
+
+}
+
+#govAgency {
+    grid-area: card2;
+    margin: 30px 80px 30px 25px;
+    border-radius: 4px;
+
+}
+
+#non-profit img {
+    width: 100%;
+}
+
+#govAgency img {
+    width: 100%;
+}
+
+.subTitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: #3E3E3E;
+    display: inline-block;
+    margin: 10px 0px 30px 30px;
+
+
+}
+
+.description {
+    font-size: 16px;
+    margin: 0 30px 30px 30px;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 500;
+    margin: 30px 30px 0px 30px;
+}
+
+.linkedinIcon {
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    right: 0px;
+
+}
+
+.linkedinIcon:hover {
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    right: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: transform .3s;
+
+
+
+}
+
+
+.govImage {
+    border-radius: 4px 4px 0 0;
+}
+
+.aboutMe {
+    font-size: 32px;
+    margin: 25px 0px 25px 80px;
+    max-width: 100%;
+    font-weight: 400;
+    background-color: white;
+
+}
+
+.aboutmeContainer{
+    background-color: white;
+    
+}
+
+
+
+.resume {
+    border-style: solid;
+    padding: 13px 16px;
+    border-radius: 4px;
+    border-color: black;
+    margin: 300px 50px 150px 80px;
+    background-color: #00022D;
+   max-width: 198px;
+   max-height: 65px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.resume:hover{
+    border-style: solid;
+    padding: 13px 16px;
+    border-radius: 4px;
+    border-color: black;
+    margin: 300px 50px 150px 80px;
+    background-color: #00022D;
+   max-width: 198px;
+   max-height: 65px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    transition: transform .8s;
+}
+
+.resume:active{
+   
+        background-color: black;
+        transition: all .2s ease;
+        padding: 11px 14px;
+        box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+        
+        
+    
+}
+
+
+
+
+
+.downloadArrow{
+    max-width: 16px;
+    max-height: 20px;
+    margin: 0px 0px 0px 20px;
+
+}
+
+.profilePic {
+    display: inline-block;
+    max-width: 75%;
+    
+    
+}
+
+.meContainer {
+    display: inline-block;
+    background-color: white;
+    max-width: 50%;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.meContainer div{
+ text-align: left;
+ width: 50%;
+ margin: 0 auto;
+
+}
+
+.skillsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: white;
+    grid-template-areas: "smallCard1 smallCard2 smallCard3 smallCard4";
+    margin: 0 65px 0 65px;
+
+}
+
+.smallCard {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    margin: 30px 15px 30px 15px;
+    background-color: white;
+    
+   
+
+}
+
+.skillTitle {
+    margin: 30px 15px 30px 15px;
+    
+    background-color: white;
+}
+
+.skillDescription {
+    margin: 30px 15px 30px 15px;
+    background-color: white;
+    align-self: flex-end;
+
+
+}
+
+.smallCard section{
+    padding-top: auto;
+    height: 100%;
+    display: flex;
+    background-color: white;
+   
+}
+
+.toolsTitle{
+    font-size: 36px;
+    font-weight: 500;
+    background-color: white;
+    display: inline-block;
+    margin: 4px;
+
+}
+
+.toolsList{
+    margin: 0 0 0 80px;
+    background-color: white;
+    display: block;
+
+}
+
+.toolsList li{
+display: block;
+margin: 0 0 0 0px;
+font-size: 32px;
+font-weight: 400;
+padding: 0;
+
+}
+
+.titleContainer{
+background-color: white;
+display: flex;
+margin: 80px 0 0 80px;
+align-items: center;
+
+}
+
+.toolImage{
+    width: 36px;
+    height: 36px;
+}
+
+.smallCard div{
+    text-align: center;
+    max-height: 100%;
+    background-color: white;
+}
+
+.skillImage{
+    align-self: center;
+    vertical-align: middle;
+    max-height: 40px;
+
+
+}
+
+.interests{
+    margin: 30px 10px 10px 10px;
+    font-size: 36px;
+    font-weight: 500;
+    min-width: 100%;
+}
+
+.interestList li{
+    padding: 0;
+    margin: 5px 10px 5px 10px;
+    display: block;
+}
+
+.leftSide{
+    max-width: 50%;
+    padding: 30px;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.contactCard{
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: white;
+    width: 40%;
+    max-width: 700px;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 100;
+    top: 400px;
+    padding: 45px 30px;
+    align-items: center;
+    transition: all .5s ease;
+    justify-content: center;
+   
+}
+
+.overlayBackground{
+    background-color: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    height:100vh;
+    width: 100%;
+    top:0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.active{
+    opacity: 1;
+}
+
+
+#xButton{
+   text-align: right;
+    border-style: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+
+
+.dividerLine{
+    border-right: black 1px solid;
+   height: 200px;
+   width: 1px;
+   padding: none;
+   margin: 0 60px 0 60px;
+   
+
+}
+
+
+
+
+
+.halfCard{
+    
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: auto;
+    background-color: white;
+    
+    
+    
+    
+   
+}
+
+.cardName{
+font-size: 36px;
+font-weight: 500;
+margin: 0;
+/* margin-right: 60px; */
+text-wrap: nowrap;
+min-width: 60px;
+
+
+
+}
+
+.cardTitle{
+    font-size: 24px;
+    font-weight: 400;
+    margin:0;
+    /* margin-right: 60px; */
+    
+
+}
+
+.xIcon{
+    width: 20px;
+    cursor: pointer;
+
+}
+
+.xIcon:hover{
+    transform: scale(1.1);
+    transition: transform .8s;
+}
+
+.contactLink{
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.contactIcon{
+    width: 32px;
+    cursor: pointer;
+    /* margin-left: 60px; */
+   
+}
+
+.contactIcon:hover{
+    
+      transform: scale(1.1);
+    transition: transform .8s;
+
+}
+
+
+
+.contactItem{
+    margin: 5px 10px;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+
+.contactItem:hover{
+    transform: scale(1.05);
+    transition: transform .8s;
+}
+
+
+.overviewTitle{
+    font-size: 32px;
+    font-weight: 600;
+
+}
+
+.projectdetailTitle{
+    font-size: 24px;
+    font-weight: 500;
+
+}
+
+.projectSubheader{
+    font-size: 30px;
+    font-weight:500;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1600px) {
+    .contactCard{
+    
+        max-width: 700px;
+    width: 45%;
+   
+}
+
+}
+
+@media only screen and (max-width: 1400px) {
+    .contactCard{
+    
+        max-width: 700px;
+    width: 50%;
+    
+}
+
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .contactCard{
+    
+        max-width: 700px;
+    width: 45%;
+    
+
+}
+
+.cardName{
+font-size: 32px;
+/* margin-right: 30px; */
+
+}
+
+.cardTitle{
+font-size: 20px;
+/* margin-right: 30px; */
+
+}
+
+.contactItem{
+font-size: 14px;
+}
+
+
+.contactIcon{
+    width: 24px;
+    /* margin-left: 30px; */
+}
+
+.dividerLine{
+    margin: 0px 30px 0px 30px;
+
+}
+
+}
+
+
+@media only screen and (max-width: 1060px) {
+    .contactCard{
+    
+        max-width: 1000px;
+    width: 40%;
+    flex-direction: column;
+
+}
+
+.cardName{
+font-size: 32px;
+/* margin-right: 30px; */
+
+}
+
+.cardTitle{
+font-size: 20px;
+/* margin-right: 30px; */
+
+}
+
+.contactItem{
+font-size: 14px;
+}
+
+
+.contactIcon{
+    width: 24px;
+    /* margin-left: 30px; */
+}
+
+.dividerLine{
+    width: 200px;
+   height: 1px;
+   border-bottom: black 1px solid;
+   margin: 30px 0px 30px 0px;
+
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  
+    .smallCard {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        display: flex;
+        flex-direction: column;
+        margin: 20px 10px 20px 10px;
+        background-color: white;
+    
+    }
+
+
+.skillsContainer{
+grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    grid-template-areas: "smallCard1 smallCard2" "smallCard3 smallCard4";
+    margin: 0px;
+    }
+
+    .skillTitle {
+        margin: 30px 15px 30px 15px;
+        font-size: 16px;
+        background-color: white;
+    }
+
+    .skillDescription {
+        margin: 30px 15px 30px 15px;
+        background-color: white;
+        align-self: flex-end;
+        font-size: 12px;
+    
+    
+    }
+
+
+    .cardContainer {
+    
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        background-color: white;
+        grid-template-areas: "card1" "card2";
+        align-items: center;
+        margin: 0 auto;
+
+    }
+
+    #non-profit {
+        grid-area: card1;
+        border-radius: 4px;
+        margin: 15px;
+    
+    }
+    
+    #govAgency {
+        grid-area: card2;
+        border-radius: 4px;
+        margin: 15px;
+    
+    }
+
+    h1 {
+        font-family: "Libre Baskerville", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 36px;
+        padding: 0;
+        margin: 0px 0px 0px 0px;
+        margin-block-start: 0px;
+       
+    }
+
+
+    .title {
+        font-size: 24px;
+        font-family: "Montserrat";
+        font-weight: 400;
+        margin: 0px 0px 30px 10px;
+        display: inline-block;
+    
+    }
+
+    .tagLine {
+        font-size: 18px;
+        max-width: 100%;
+        margin: 0px 10px 0px 10px;
+        font-weight: 400;
+    
+    }
+
+
+    .quote {
+        font-size: 18px;
+        font-weight: 500;
+        text-align: left;
+        font-style: italic;
+        max-width: 100%;
+        margin: 30px 10px 50px 10px;
+    
+    }
+
+    h2 {
+        font-size: 32px;
+        font-weight: 500;
+        margin: 0px 0px 0px 10px;
+    }
+
+    h3 {
+        font-size: 24px;
+        font-weight: 500;
+        margin: 30px 30px 0px 30px;
+    }
+
+    .subTitle {
+        font-size: 16px;
+        font-weight: 400;
+        color: #3E3E3E;
+        display: inline-block;
+        margin: 0px 0px 30px 30px;
+    
+    
+    }
+    
+    .description {
+        font-size: 16px;
+        margin: 0 30px 30px 30px;
+    }
+
+    .hero {
+        margin-top: 257px;
+        flex-direction: column;
+       
+    }
+
+    .leftSide{
+        max-width: 100%;
+        padding: 10px;
+    }
+
+    .aboutMe {
+        font-size: 16px;
+        margin: 15px 0px 15px 0px;
+        max-width: 100%;
+        font-weight: 400;
+        background-color: white;
+    
+    }
+    
+    .aboutmeContainer{
+        background-color: white;
+        margin: 0;
+        
+    }
+
+    .resume {
+        border-style: solid;
+        padding: 13px 16px;
+        border-radius: 4px;
+        border-color: black;
+        margin: 20px 10px 20px 0px;
+        background-color: #00022D;
+       max-width: 198px;
+       max-height: 65px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 32px;
+    }
+
+    .resume:hover{
+
+        margin: 20px 10px 20px 0px;
+
+    }
+
+
+    .meContainer {
+        display: block;
+        background-color: white;
+        max-width: 100%;
+        padding: 30px;
+        text-align: center;
+    
+    }
+
+    .interests{
+        margin: 30px 10px 10px 10px;
+        font-size: 20px;
+        font-weight: 500;
+        min-width: 100%;
+    }
+    
+    .interestList li{
+        padding: 0;
+        margin: 5px 10px 5px 10px;
+        display: block;
+        font-size: 16px;
+    }
+
+
+
+
+
+
+
+
+
+
+    .toolsTitle{
+        font-size: 28px;
+        font-weight: 500;
+        background-color: white;
+        display: inline-block;
+        margin: 4px;
+    
+    }
+    
+    .toolsList{
+        margin: 0 0 0 10px;
+        background-color: white;
+        display: block;
+    
+    }
+    
+    .toolsList li{
+    display: block;
+    margin: 0 0 0 0px;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 0;
+    
+    }
+    
+    .titleContainer{
+    background-color: white;
+    display: flex;
+    margin: 80px 0 0 10px;
+    align-items: center;
+    
+    }
+    
+    .toolImage{
+        width: 36px;
+        height: 36px;
+    }
+
+
+
+
+
+    
+}
