@@ -1,6 +1,5 @@
 .logo {
     display: inline-block;
-    margin-left: 55px;
     font-size: 32px;
     font-weight: 500;
    color:black;
@@ -44,7 +43,9 @@ a {
 
 .customnavbar{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    padding-left: 55px;
+    padding-right: 55px;
 }
 
 
