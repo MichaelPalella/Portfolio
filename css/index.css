@@ -164,7 +164,9 @@ body {
 }
 
 
-
+.navbar{
+    background-color: white;
+}
 
 
 
@@ -176,10 +178,18 @@ h1 {
     font-size: 64px;
     padding: 0;
     margin: 0px 0px 0px 80px;
+    color: black;
    
-
-
 }
+
+.topSection h1{
+    margin: 0;
+}
+
+.row h1{
+    margin: 0;
+}
+
 
 .wrap{
     color: black;
@@ -317,9 +327,10 @@ h2 {
     display: inline-block;
     text-decoration: underline #054fb9;
     
+}
 
-
-
+.topSection .title{
+    margin: 0;
 }
 
 br {
@@ -596,6 +607,32 @@ align-items: center;
     max-height: 40px;
 
 
+}
+
+.projectDetails li{
+    list-style: disc;
+    display: list-item;
+    font-size: 16px;
+    padding-left: 0;
+    
+}
+
+.projectDetails{
+    display: inline-block;
+    justify-content: center;
+}
+
+.researchFindings{
+    justify-content: center;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
+.fidelityHeader{
+    font-size: 30px;
 }
 
 .interests{
