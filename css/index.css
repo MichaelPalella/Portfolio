@@ -118,10 +118,10 @@ header {
     display: flex;
 }
 
-.topSection{
+/* .topSection{
     margin-top: 257px;
 
-}
+} */
 
 body {
     font-family: "Montserrat";
@@ -177,7 +177,7 @@ h1 {
     font-style: normal;
     font-size: 64px;
     padding: 0;
-    margin: 0px 0px 0px 80px;
+    /* margin: 0px 0px 0px 80px; */
     color: black;
    
 }
@@ -188,6 +188,10 @@ h1 {
 
 .row h1{
     margin: 0;
+}
+
+.helloTag{
+    margin-left: 80px !important;
 }
 
 
@@ -319,7 +323,7 @@ h2 {
 
 }
 
-.title {
+.jobTitle {
     font-size: 36px;
     font-family: "Montserrat";
     font-weight: 400;
@@ -329,7 +333,13 @@ h2 {
     
 }
 
+
 .topSection .title{
+    font-size: 36px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    display: inline-block;
+    text-decoration: underline #054fb9;
     margin: 0;
 }
 
@@ -338,7 +348,9 @@ br {
     padding: -10px;
 }
 
-
+.caseHero{
+    margin-top: 96px;
+}
 
 .cardContainer {
     display: grid;
@@ -617,18 +629,33 @@ align-items: center;
     
 }
 
-.projectDetails{
-    display: inline-block;
-    justify-content: center;
+
+
+.projectIdeation{
+    display: flex;
+    align-items: center;
+}
+
+.orderedList{
+    padding-left: 20px;
 }
 
 .researchFindings{
-    justify-content: center;
-    background-color: pink;
+    align-items: center;
     display: flex;
     flex-direction: column;
+    
    
+} 
+
+.researchFindings ul{
+    width: 85%;
 }
+
+.projectDetails li{
+    margin-left: 16px;
+}
+
 
 
 .fidelityHeader{
@@ -813,6 +840,9 @@ min-width: 60px;
     font-weight: 500;
 
 }
+
+
+
 
 .projectSubheader{
     font-size: 30px;

@@ -79,3 +79,33 @@ window.onload = function() {
     document.body.appendChild(css);
 };
 //typing Header End
+
+//Click to Copy
+
+let text = document.getElementById('emailCopy').innerHTML;
+const copyContent = async () => {
+  try {
+    await navigator.clipboard.writeText(text);
+    console.log('Content copied to clipboard');
+  } catch (err) {
+    console.error('Failed to copy: ', err);
+  }
+    // Alert the copied text
+    alert("Copied the text: " + text);
+}
+//Click to Copy Email End
+
+//Click to Copy
+
+let text = document.getElementById('phoneCopy').innerHTML;
+const copyContent = async () => {
+  try {
+    await navigator.clipboard.writeText(text);
+    console.log('Content copied to clipboard');
+  } catch (err) {
+    console.error('Failed to copy: ', err);
+  }
+    // Alert the copied text
+    alert("Copied the text: " + text);
+}
+//Click to Copy Email End

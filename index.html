@@ -34,8 +34,8 @@
     </header>
 
     <div class="topSection">
-        <h1>Hi, I'm Michael Palella</h1>
-        <span class="title">UX/UI Designer</span>
+        <h1 class="helloTag">Hi, I'm Michael Palella</h1>
+        <span class="jobTitle">UX/UI Designer</span>
 
         <p class="tagLine">Passionate about creating intuitive and delightful experiences for everyone.</p>
         <div class="quoteContainer">
@@ -98,11 +98,12 @@
             <div class="dividerLine"></div>
 
             <div class="halfCard">
+
                 <div class="contactLink"><img class="contactIcon" src="images/Mail.png">
-                    <p class="contactItem">mnpalella@gmail.com</p>
+                    <span onclick="copyContent()"><p id="emailCopy" class="contactItem">mnpalella@gmail.com</p></span>
                 </div>
-                <div class="contactLink"><img class="contactIcon" src="images/Calls.png">
-                    <p class="contactItem">(847) 226-3572</p>
+                <div class="contactLink"><img class="phoneCopy" src="images/Calls.png">
+                    <span onclick="copyContent()"><p id="phoneCopied" class="contactItem">(847) 226-3572</p></span>
                 </div>
                 <div class="contactLink"><img class="contactIcon" src="images/Social Icons.png">
                     <p class="contactItem">/michael-palella</p>
@@ -118,3 +119,4 @@
 </body>
 
 </html>
+
