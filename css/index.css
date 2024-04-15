@@ -20,11 +20,11 @@
     
 }
 
-a {
+/* a {
     text-decoration: none;
     transition: all .5s ease;
     color: black;
-}
+} */
 
 
 .mainNav {
@@ -51,10 +51,37 @@ a {
 
 .nav-link{
     padding: 0 !important;
+    color: black;
 }
 
 
+/* .contact .nav-link:hover{
+color: #ffffff;
 
+} */
+
+.contact:hover{
+    border-style: solid;
+    padding: 13px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #00022D;
+    transition: all .5s ease;
+    color: white;
+    border-color: black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    
+    
+}
+
+.contact:active{
+    background-color: black;
+    transition: all .2s ease;
+    padding: 11px 14px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+    
+    
+}
 
 
 ul li{
@@ -88,11 +115,18 @@ ul li{
     text-decoration: underline;
 }
 
+.logo:hover{
+    color: #054fb9;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all .5s ease;
+}
 
 .navButton:hover{
     color: #054fb9;
     cursor: pointer;
     font-weight: 500;
+    transition: all .5s ease;
 }
 
 ul {
@@ -118,10 +152,10 @@ header {
     display: flex;
 }
 
-/* .topSection{
+.topSection{
     margin-top: 257px;
 
-} */
+}
 
 body {
     font-family: "Montserrat";
@@ -129,11 +163,13 @@ body {
     padding: 0;
 }
 
-
+.typewrite{
+    margin-left: 80px;
+}
 
 .contact {
-    border-style: solid;
-    padding: 13px 16px;
+    border: solid 3px black;
+    padding: 13px 16px !important;
     border-radius: 4px;
     cursor: pointer;
 
@@ -239,7 +275,7 @@ h2 {
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     display: inline-block;
-
+  
 
 }
 
@@ -248,8 +284,8 @@ h2 {
     cursor: pointer;
     transform: scale(1.05);
     transition: transform .8s;
-    border-color: #054fb9;
-    border-width: 2px;
+    /* border-color: #054fb9;
+    border-width: 2px; */
         background: linear-gradient(
             -45deg,
             #ffffff,
@@ -351,6 +387,7 @@ br {
 .caseHero{
     margin-top: 96px;
 }
+
 
 .cardContainer {
     display: grid;
@@ -594,6 +631,8 @@ padding: 0;
 
 }
 
+
+
 .titleContainer{
 background-color: white;
 display: flex;
@@ -630,11 +669,20 @@ align-items: center;
 }
 
 
-
 .projectIdeation{
     display: flex;
     align-items: center;
 }
+
+#styletileText{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    
+    justify-content: center;
+}
+
+
 
 .orderedList{
     padding-left: 20px;
@@ -729,6 +777,12 @@ h4{
 
 }
 
+#xButton:hover{
+   
+     background-color: white;
+     box-shadow: none;
+ 
+ }
 
 .dividerLine{
     border-right: black 1px solid;
@@ -811,7 +865,14 @@ min-width: 60px;
 
 }
 
+.footerEmail{
+    cursor: pointer;
+}
 
+.footerEmail:hover{
+    transform: scale(1.05);
+    transition: transform .8s;
+}
 
 .contactItem{
     margin: 5px 10px;

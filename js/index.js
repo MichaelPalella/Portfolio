@@ -92,20 +92,20 @@ const copyContent = async () => {
   }
     // Alert the copied text
     alert("Copied the text: " + text);
-}
+};
 //Click to Copy Email End
 
 //Click to Copy
 
-let text = document.getElementById('phoneCopy').innerHTML;
-const copyContent = async () => {
+let text2 = document.getElementById('phoneCopy').innerHTML;
+const copyContent2 = async () => {
   try {
-    await navigator.clipboard.writeText(text);
+    await navigator.clipboard.writeText(text2);
     console.log('Content copied to clipboard');
   } catch (err) {
     console.error('Failed to copy: ', err);
   }
     // Alert the copied text
-    alert("Copied the text: " + text);
-}
+    alert("Copied the text: " + text2);
+};
 //Click to Copy Email End
