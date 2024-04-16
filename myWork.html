@@ -40,7 +40,7 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link navButton" href="myWork.html">My Work</a>
+                        <a id="myworkButton" class="nav-link navButton" href="myWork.html">My Work</a>
                     </li>
 
                     <li class="nav-item">
@@ -104,39 +104,48 @@
         <div class="footer">
             <p class="copyright">Copyright © 2024 Michael Palella</p>
             <ul class="footerCopy">
-                <li>mnpalella@gmail.com</li>
-                <li>(847) 226-3572</li>
-                <li><a class="linkedin"> <img class="linkedinIcon"   src="images/Linkedin.png"></a></li>
+                <li>Design by Me</li>
+                <span onclick="copyContent()">
+                    <li class="footerEmail">mnpalella@gmail.com</li>
+                </span>
+                <li><a target="_blank" href="https://www.linkedin.com/in/michael-palella/" class="linkedin"> <img class="linkedinIcon" src="images/Linkedin.png"></a></li>
             </ul>
-    
+
         </div>
     </footer>
+
     <div class="overlayBackground">
-    <div class="contactCard">
+        <div class="contactCard">
 
-        <div  id="xButton" class="contact"><img class="xIcon" src="images/multiply-new.png"></div>
+            <div id="xButton" class="contact"><img class="xIcon" src="images/multiply-new.png"></div>
 
-        <div class="halfCard" id="dividerLine">
-            <p class="cardName">Michael Palella</p>
-            <p class="cardTitle">UX/UI Designer</p>
-        </div>
-
-        <div class="dividerLine"></div>
-
-        <div class="halfCard">
-            <div class="contactLink"><img class="contactIcon" src="images/Mail.png">
-                <p class="contactItem">mnpalella@gmail.com</p>
-            </div>
-            <div class="contactLink"><img class="contactIcon" src="images/Calls.png">
-                <p class="contactItem">(847) 226-3572</p>
-            </div>
-            <div class="contactLink"><img class="contactIcon" src="images/Social Icons.png">
-                <p class="contactItem">/michael-palella</p>
+            <div class="halfCard" id="dividerLine">
+                <p class="cardName">Michael Palella</p>
+                <p class="cardTitle">UX/UI Designer</p>
             </div>
 
+            <div class="dividerLine"></div>
+
+            <div class="halfCard">
+
+                <div class="contactLink"><span onclick="copyContent()"><img class="contactIcon" src="images/Mail.png"></span>
+                    <span onclick="copyContent()">
+                        <p id="emailCopy" class="contactItem">mnpalella@gmail.com</p>
+                    </span>
+                </div>
+                <div class="contactLink"><span onclick="copyContent2()"><img class="contactIcon" src="images/Calls.png"></span>
+                    <span onclick="copyContent2()">
+                        <p id="phoneCopy" class="contactItem">(847) 226-3572</p>
+                    </span>
+                </div>
+                <div class="contactLink"><a target="_blank" href="https://www.linkedin.com/in/michael-palella/"><img class="contactIcon" src="images/Social Icons.png"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/michael-palella/">
+                    <p class="contactItem">/michael-palella</p></a>
+                </div>
+
+            </div>
         </div>
     </div>
-</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
