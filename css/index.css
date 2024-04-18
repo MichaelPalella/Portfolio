@@ -324,15 +324,14 @@ h2 {
 
 
 
-
 .footer {
     color: white;
     align-items: center;
-    height: 40px;
+    /* height: 40px; */
     
 
     bottom: 0;
-    padding: 45px 0px;
+    padding: 2px 0px;
     display: flex;
     justify-content: space-between;
     background-color: #363535;
@@ -341,15 +340,21 @@ h2 {
 
 }
 
+
+
+
+
 .footerCopy {
     display: flex;
     align-items: center;
     margin: 30px 55px 30px 30px;
     background-color: #363535;
 
-
-
 }
+
+
+
+
 
 .copyright {
     margin: 30px 30px 30px 55px;
@@ -916,9 +921,6 @@ min-width: 60px;
 
 
 
-
-
-
 @media only screen and (max-width: 1600px) {
     .contactCard{
     
@@ -1024,13 +1026,25 @@ font-size: 14px;
 @media only screen and (max-width: 925px) {
 
 .footer{
+    flex-direction: column;
+    /* justify-content: space-around; */
+    padding: 20px 0px;
+
     
 }
 
 .footerCopy{
     flex-direction: column;
+    /* align-items: normal; */
+    margin: 0;
 }
 
+.copyright{
+flex-direction: column;
+margin: 5px 0 5px 0;
+
+
+}
 
 
 
